@@ -1,0 +1,14 @@
+.play-area {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.directions {
+    font-size: 26px;
+    margin-bottom: 50px;
+}
+
+.displays {
+  display: flex;
+}

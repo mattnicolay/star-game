@@ -1,0 +1,47 @@
+.number {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  font-size: 46px;
+  padding: 5px;
+  margin: 10px;
+  color: #ffffff;
+}
+
+.available {
+  background-color: #1e90ff;
+}
+
+.available:hover {
+  background-color: #5eaeff;
+  cursor: pointer;
+}
+
+.available:active {
+  background-color: #41a0ff;
+}
+
+.candidate {
+  background-color: #005ab4;
+}
+
+.candidate:hover {
+  background-color: #0080ff;
+  cursor: pointer;
+}
+
+.error {
+  background-color: #ff4e3a;
+}
+
+.error:hover {
+  background-color: #ff8577;
+  cursor: pointer;
+}
+
+.success {
+    background-color: #3ce490;
+}

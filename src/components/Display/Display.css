@@ -1,0 +1,11 @@
+.display {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  border: 5px solid #e4bc0b;
+  justify-content: center;
+  align-content: center;
+}
