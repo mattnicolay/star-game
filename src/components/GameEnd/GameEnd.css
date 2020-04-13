@@ -1,0 +1,35 @@
+.game-end-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.win {
+  font-size: 50px;
+  color: #1bd349;
+}
+
+.lose {
+  font-size: 50px;
+  color: #d3301b;
+}
+
+.play-again-button {
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1e90ff;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 26px;
+}
+
+.play-again-button:hover {
+  background-color: #5eaeff;
+  cursor: pointer;
+}
+
+.play-again-button:active {
+  background-color: #41a0ff;
+}
